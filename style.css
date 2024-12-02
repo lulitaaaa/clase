@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #eff1fd;
+    background-image: url(MATERIALES/img/01.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.logo {
+    width: 150px;
+}
+
+.contenedor div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+nav a:nth-child(1) {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    background-color: #eff1fd;
+    border-bottom: black 2px solid;
+    border-radius: 0;
+    padding-bottom: 2px;
+}
+
+nav a:nth-child(5) {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    background-color: #F48034;
+    padding: 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    background-color: #EDBB49;
+    padding: 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+h1 {
+    font-size: 60px;
+    color: #F48034;
+    text-transform: lowercase;
+    width: 600px;
+    font-style: oblique;
+    margin: 10px 0;
+}
+
+h4 {
+    color: #EDBB49;
+    text-transform: uppercase;
+}
+
+p {
+    margin: 10px 0;
+}
+
+li {
+    text-transform: lowercase;
+}
+
+ul:nth-child(1) {
+    margin-left: 30px;
+    font-style: oblique;
+    list-style-image: url(MATERIALES/img/flecha.png);
+}
+
+ul {
+    list-style: inside;
+    list-style-type: circle;
+}
+
+section a {
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    border: solid 2px black;
+    color: black;
+    text-transform: uppercase;
+    padding: 8px;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+h2{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+#back{
+    background-color: #EDBB49;
+}
+
+
+#back article a:nth-of-type(2), p a:nth-of-type(2){
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+.popo{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.botones{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#back article{
+    width: 100%;
+}
+
+#back article img{
+    width: 100%;
+}
+
+#back figure img{
+    border-radius: 10px;
+}
+
+#back a{
+text-decoration: none;
+border: solid 2px black;
+color: black;
+text-transform: uppercase;
+padding: 8px;
+font-weight: bold;
+margin: 0;
+}
+
+figcaption{
+    font-size: 10px;
+    text-align: right;
+}
+
+#juegodete{
+    background-color: white;
+}
+
+#juegodete article{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    align-items: end;
+}
+
+#juegodete img{
+width: 50%;
+}
+
+footer{
+    background-color: #F48034;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
